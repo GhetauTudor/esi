@@ -2,7 +2,7 @@
 
 > **Your agent's memory forgets. It should know it forgot.**
 
-[![PyPI version](https://badge.fury.io/py/esi-memory.svg)](https://badge.fury.io/py/esi-memory)
+[![Tests](https://github.com/GhetauTudor/esi/actions/workflows/tests.yml/badge.svg)](https://github.com/GhetauTudor/esi/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
@@ -66,15 +66,12 @@ Works as a wrapper over any existing memory backend. Keep your Mem0, LangMem, or
 ## Install
 
 ```bash
-pip install esi-memory
-```
-
-Or from source:
-```bash
 git clone https://github.com/GhetauTudor/esi
 cd esi
 pip install -e .
 ```
+
+> PyPI package coming soon. Install from source in the meantime — it takes 30 seconds.
 
 ## Quick start
 
