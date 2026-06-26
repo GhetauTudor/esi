@@ -8,6 +8,10 @@
 
 ---
 
+![ESI forgetting demo](esi_forgetting_demo.png)
+
+---
+
 AI agents forget things. That's fine. The problem is they don't know they forgot — so they answer with the same confidence whether a memory is fresh or years old.
 
 **ESI** is a drop-in standard: any memory query returns not just *what* was remembered, but *how well* it was remembered.
