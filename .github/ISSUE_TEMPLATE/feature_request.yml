@@ -1,0 +1,46 @@
+name: Feature Request
+description: Suggest a new epistemic dimension, backend, or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve ESI. Check the [ROADMAP](https://github.com/GhetauTudor/esi/blob/master/ROADMAP.md) first to see if it's already planned.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - New epistemic dimension (e.g. degradation, contradiction)
+        - New backend integration (e.g. LangMem, Zep, custom)
+        - API improvement
+        - Performance
+        - Documentation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or limitation you're hitting.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: What would the API or behavior look like?
+      render: python
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Would you like to implement this?
+      options:
+        - label: Yes, I'd like to submit a PR

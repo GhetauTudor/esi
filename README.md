@@ -5,6 +5,8 @@
 [![Tests](https://github.com/GhetauTudor/esi/actions/workflows/tests.yml/badge.svg)](https://github.com/GhetauTudor/esi/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Cite this](https://img.shields.io/badge/cite-CITATION.cff-blue.svg)](CITATION.cff)
 
 ---
 
@@ -139,7 +141,7 @@ ESI is a standard, not a framework. Implement `query() → Result` in your backe
 - [ ] LangMem backend integration
 - [ ] `difficulty` estimation → energy-aware model routing
 
-See [ROADMAP.md](ROADMAP.md) for details.
+See [ROADMAP.md](ROADMAP.md) for details and [docs/architecture.md](docs/architecture.md) for how ESI works internally.
 
 ---
 
@@ -147,7 +149,11 @@ See [ROADMAP.md](ROADMAP.md) for details.
 
 Contributions welcome — especially backend integrations and new epistemic dimensions.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and [docs/architecture.md](docs/architecture.md) for how to add a new backend (it's ~20 lines).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Citation
 

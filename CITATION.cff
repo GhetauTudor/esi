@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use ESI in your research, please cite it as below."
+type: software
+title: "ESI: Epistemic State Interface for Agent Memory"
+abstract: >
+  ESI is a drop-in standard that adds epistemic state (confidence, freshness)
+  to any AI agent memory system. It addresses the core problem that agents
+  forget information but do not know they forgot it — responding with equal
+  confidence whether a memory is fresh or heavily degraded.
+authors:
+  - family-names: Ghetau
+    given-names: Tudor
+    orcid: ""
+repository-code: "https://github.com/GhetauTudor/esi"
+url: "https://github.com/GhetauTudor/esi"
+license: MIT
+version: 0.1.0
+date-released: "2026-06-27"
+keywords:
+  - ai
+  - memory
+  - agents
+  - llm
+  - epistemic
+  - confidence
+  - continual-learning
+  - abstention
